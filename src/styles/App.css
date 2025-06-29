@@ -1,0 +1,66 @@
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 200px;
+  background: #222;
+  color: white;
+  padding: 1rem;
+}
+
+.sidebar a {
+  display: block;
+  margin: 10px 0;
+  color: white;
+  text-decoration: none;
+}
+
+.main-content {
+  flex: 1;
+  padding: 1rem;
+  background: #f5f5f5;
+  overflow-y: auto;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+.page {
+  padding: 1rem;
+}
+
+.dark-theme {
+  background-color: #111;
+  color: white;
+}
+
+.light-theme {
+  background-color: #fff;
+  color: black;
+}
+
+.kanban-container {
+  display: flex;
+  gap: 20px;
+}
+
+.kanban-column {
+  background: #eee;
+  padding: 10px;
+  width: 200px;
+  min-height: 200px;
+}
+
+.kanban-task {
+  background: white;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+}
